@@ -1,0 +1,59 @@
+.review
+	padding: 30px 0 30px 0
+	margin-top: 30px
+	min-height: 500px
+	background: linear-gradient(122.26deg, #C4204F 19.83%, #B41D52 25.53%, #6C115D 52.15%, #380866 74.3%, #18026B 90.9%, #0C006D 100.06%)
+	&_block
+		padding: 40px 100px 50px 100px
+		display: flex
+		justify-content: space-between
+	&_item
+		width: 400px
+		min-height: 300px
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+	&_text
+		font-size: 17px
+		line-height: 20px
+		color: #FFFFFF
+		&::before
+			content: '“'
+			margin-right: 5px
+	&_user
+		display: flex
+		align-items: center
+		&_avatar
+			height: 50px
+			width: 50px
+			border-radius: 100%
+			margin-right: 15px
+			&_1
+				background: url('../img/users/1.png') no-repeat
+				background-size: 100% auto
+				background-position: center
+			&_2
+				background: url('../img/users/2.png') no-repeat
+				background-size: 100% auto
+				background-position: center
+		&_name
+			font-size: 20px
+			color: #FFFFFF
+			line-height: 20px
+		&_position
+			font-weight: 300
+			font-size: 15px
+			color: #FFFFFF
+
+.carousel
+	margin: 0 auto
+	width: 150px
+	display: flex
+	justify-content: space-between
+	span
+		width: 20px
+		height: 20px
+		border: 2px solid #fff
+		border-radius: 100%
+	&_active
+		background-color: #fff
